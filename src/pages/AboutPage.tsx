@@ -108,7 +108,7 @@ export default function AboutPage() {
         </div>
         <div className="hero-content relative z-10 text-center container-custom">
           <h1 className="text-5xl sm:text-6xl lg:text-8xl font-black text-white mb-6">
-            سلطان استور
+            سلطان
           </h1>
           <p className="text-2xl sm:text-3xl text-brand-orange font-bold mb-4">
             أجهزة الكمبيوتر
@@ -129,7 +129,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-white/70 text-lg leading-relaxed">
                 <p>
-                  انطلق سلطان استور في الكويت بهدف واحد: توفير أحدث التقنيات وأفضل أجهزة الكمبيوتر
+                  انطلق سلطان  في الكويت بهدف واحد: توفير أحدث التقنيات وأفضل أجهزة الكمبيوتر
                   بأسعار تنافسية. نؤمن بأن كل شخص يستحق جهازاً قوياً يواكب طموحاته.
                 </p>
                 <p>
@@ -211,7 +211,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <p className="text-white font-medium">البريد الإلكتروني</p>
-                    <p className="text-white/60">info@سلطان استور.com.kw</p>
+                    <p className="text-white/60">info@سلطان .com.kw</p>
                   </div>
                 </div>
                 <div className="contact-item flex items-center gap-4">

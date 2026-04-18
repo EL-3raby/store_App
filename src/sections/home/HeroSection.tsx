@@ -103,7 +103,7 @@ export default function HeroSection() {
           <div className="text-center lg:text-right">
             <div ref={titleRef}>
               <h1 className="text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-black text-white leading-none tracking-tight">
-                <span className="word block">سلطان استور</span>
+                <span className="word block">سلطان </span>
                 <span className="word block text-brand-orange mt-2">أجهزة</span>
                 <span className="word block text-white/90 mt-2">الكمبيوتر</span>
               </h1>

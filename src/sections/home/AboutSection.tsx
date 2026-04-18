@@ -101,7 +101,7 @@ export default function AboutSection() {
               ref={titleRef}
               className="text-4xl sm:text-5xl lg:text-6xl font-black text-white mb-8"
             >
-              نحن <span className="text-brand-orange">سلطان استور</span>
+              نحن <span className="text-brand-orange">سلطان </span>
             </h2>
             <p
               ref={textRef}

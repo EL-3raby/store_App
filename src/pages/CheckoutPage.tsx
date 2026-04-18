@@ -33,7 +33,7 @@ export default function CheckoutPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const orderNum = `سلطان استور-2026-${String(Math.floor(Math.random() * 9999)).padStart(4, '0')}`;
+    const orderNum = `سلطان -2026-${String(Math.floor(Math.random() * 9999)).padStart(4, '0')}`;
     setLastOrderNumber(orderNum);
     setStep('success');
     confetti({
@@ -234,8 +234,8 @@ export default function CheckoutPage() {
                     type="button"
                     onClick={() => setPaymentMethod('cod')}
                     className={`w-full flex items-center gap-4 p-4 rounded-xl border-2 transition-all duration-300 ${paymentMethod === 'cod'
-                        ? 'border-brand-orange bg-brand-orange/5'
-                        : 'border-gray-200 hover:border-gray-300'
+                      ? 'border-brand-orange bg-brand-orange/5'
+                      : 'border-gray-200 hover:border-gray-300'
                       }`}
                   >
                     <Wallet className="w-6 h-6 text-brand-orange" />
@@ -253,8 +253,8 @@ export default function CheckoutPage() {
                     type="button"
                     onClick={() => setPaymentMethod('card')}
                     className={`w-full flex items-center gap-4 p-4 rounded-xl border-2 transition-all duration-300 ${paymentMethod === 'card'
-                        ? 'border-brand-orange bg-brand-orange/5'
-                        : 'border-gray-200 hover:border-gray-300'
+                      ? 'border-brand-orange bg-brand-orange/5'
+                      : 'border-gray-200 hover:border-gray-300'
                       }`}
                   >
                     <CreditCard className="w-6 h-6 text-brand-orange" />
@@ -272,8 +272,8 @@ export default function CheckoutPage() {
                     type="button"
                     onClick={() => setPaymentMethod('knet')}
                     className={`w-full flex items-center gap-4 p-4 rounded-xl border-2 transition-all duration-300 ${paymentMethod === 'knet'
-                        ? 'border-brand-orange bg-brand-orange/5'
-                        : 'border-gray-200 hover:border-gray-300'
+                      ? 'border-brand-orange bg-brand-orange/5'
+                      : 'border-gray-200 hover:border-gray-300'
                       }`}
                   >
                     <Truck className="w-6 h-6 text-brand-orange" />

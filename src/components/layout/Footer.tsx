@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link to="/" className="inline-block mb-6">
               <span className="text-3xl font-black tracking-wider text-white">
-                سلطان استور
+                سلطان
               </span>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed">
@@ -51,7 +51,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2 text-white/60 text-sm">
                 <Mail className="w-4 h-4 text-brand-orange shrink-0" />
-                info@سلطان استور.com.kw
+                info@سلطان .com.kw
               </li>
               <li className="flex items-center gap-2 text-white/60 text-sm">
                 <Phone className="w-4 h-4 text-brand-orange shrink-0" />
@@ -83,7 +83,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-white/10 mt-12 pt-8 text-center">
           <p className="text-white/40 text-sm">
-            2026 سلطان استور. جميع الحقوق محفوظة.
+            2026 سلطان . جميع الحقوق محفوظة.
           </p>
         </div>
       </div>

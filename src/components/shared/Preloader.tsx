@@ -69,7 +69,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
           className="opacity-0 text-center"
         >
           <h1 className="text-5xl font-black text-white tracking-[0.3em]">
-            سلطان استور
+            سلطان
           </h1>
           <p className="text-brand-orange text-sm mt-2 tracking-widest font-light">
             أجهزة الكمبيوتر

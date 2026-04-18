@@ -114,7 +114,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   appliedCoupon: null,
   couponDiscount: 0,
   applyCoupon: (code) => {
-    if (code.toUpperCase() === 'سلطان استور10') {
+    if (code.toUpperCase() === 'سلطان 10') {
       set({ appliedCoupon: code, couponDiscount: 0.1 });
       return true;
     }

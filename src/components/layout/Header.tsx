@@ -29,8 +29,8 @@ export default function Header() {
   return (
     <header
       className={`fixed top-12 left-0 right-0 z-40 transition-all duration-500 ${scrolled || !isHomePage
-          ? 'glass-effect shadow-lg'
-          : 'bg-transparent'
+        ? 'glass-effect shadow-lg'
+        : 'bg-transparent'
         }`}
     >
       <div className="container-custom">
@@ -38,7 +38,7 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 shrink-0">
             <span className="text-2xl font-black tracking-wider text-white">
-              سلطان استور
+              سلطان
             </span>
           </Link>
 
@@ -106,7 +106,7 @@ export default function Header() {
                 </button>
               </SheetTrigger>
               <SheetContent side="right" className="bg-brand-black border-white/10 w-80">
-                <SheetTitle className="text-white text-xl font-bold mb-8">سلطان استور</SheetTitle>
+                <SheetTitle className="text-white text-xl font-bold mb-8">سلطان </SheetTitle>
                 <nav className="flex flex-col gap-4">
                   {navLinks.map((link) => (
                     <Link
@@ -114,8 +114,8 @@ export default function Header() {
                       to={link.path}
                       onClick={() => setMobileMenuOpen(false)}
                       className={`text-lg font-medium py-3 px-4 rounded-lg transition-colors ${location.pathname === link.path
-                          ? 'bg-brand-red text-white'
-                          : 'text-white/80 hover:bg-white/10 hover:text-white'
+                        ? 'bg-brand-red text-white'
+                        : 'text-white/80 hover:bg-white/10 hover:text-white'
                         }`}
                     >
                       {link.name}
